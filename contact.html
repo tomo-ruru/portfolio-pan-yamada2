@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+    <meta charset="utf-8">
+    <meta name="description" content="架空市で人気NO1のパン屋さん「ベーカリー・パンヤマダ」です。小さなこともお気軽にお問い合わせください。">
+		<title>ほっこり美味しいパン屋さん/ベーカリーパンヤマダお問い合わせページ</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.3.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+  </head>
+
+  <body>
+    <header class="header">
+      <img src="images/img-headerlogo.png" alt="ベーカリーパンヤマダ" class="header-logo">
+      <img src="images/hamburger-icon.png" alt="" class="navi-icon">
+      <ul class="header-navi">
+        <li><a href="index.html" class="navi-list">HOME</a></li>
+        <li><a href="menu.html" class="navi-list">商品一覧</a></li>
+        <li><a href="cart.html" class="navi-list">お取り寄せ</a></li>
+        <li><a href="aboutus.html" class="navi-list">当店について</a></li>
+        <li><a href="contact.html" class="navi-list">お問い合わせ</a></li>
+      </ul>
+    </header>
+
+    <main class="contact-wrapper">
+      <div class="contact-container">
+        <h1 class="heading1">contact us</h1>
+        <p class="heading-ja">お問い合わせフォーム</p>
+
+        <form class="contact-form" method="POST" action="#">
+          <p class="input-items line">お名前 <span class="must"> 必須 </span><br class="inputline-sp"><input type="text" name="yourname" class="textbox must-form" placeholder="（例）パン山田　太郎" required></p>
+
+          <p class="input-items line">フリガナ <br class="inputline-sp"><input type="text" name="ruby" class="textbox" placeholder="（例）パンヤマダ　タロウ"></p>
+
+          <p class="input-items line">メールアドレス<span class="must"> 必須 </span><br class="inputline-sp"><input type="email" name="mail" class="textbox must-form" placeholder="（例）panyamada@gmail.com" required></p>
+
+          <p class="input-items line">お電話番号 <br class="inputline-sp"><input type="tel" name="tel" class="textbox" placeholder="（例）08012345678"></p>
+
+          <p class="input-items address">ご住所 <br class="inputline-sp"><textarea class="address-txt" placeholder="（例）架空県架空市中央１－２－３　メゾン夢幻２０２"></textarea ></p>
+
+          <p class="input-items question">お問い合わせ内容 <span class="must"> 必須 </span><br class="inputline-sp"><textarea class="contact-txt must-form" placeholder=" お問い合わせ内容をご記入ください。" required></textarea></p>
+
+          <div class="submit"><input class="submit-btn" type="submit" value="送信する" ></div>
+
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-mask">
+        <div class="footer-container">
+          <address class="address-wrapper">
+            <p>〒０００－００００</p><p>架空県架空市中央１－２－３</p><p>夢幻ビル１階</p><p>ベーカリー　パンヤマダ</p><p>電話　000-0000-0000</p><p>月～金　AM 7:00~PM7:00</p><p>無料駐車場あり</p><p class="acsess">acsess</p><p>架空駅より徒歩３分</p>
+            <ul class="sns-icon">
+              <li class="icon"><a href="#!"><img src="images/instagram-icon.svg" alt="インスタグラムのアイコン"></a></li>
+              <li class="icon"><a href="#!"><img src="images/twitter-icon.svg" alt="ツイッターのアイコン"></a></li>
+              <li class="icon"><a href="#!" ><img src="images/facebook-icon.svg" alt="フェイスブックのアイコン"></a></li>
+            </ul>
+          </address>
+        </div>
+      </div>
+      <div class="copyright">
+        <p class="copyright-txt">© fictional bakery pan-yamada</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
